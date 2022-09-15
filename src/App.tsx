@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import { Education } from './components/Education';
 import { Title } from './components/Title';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Title />
+        <Education />
       </header>
     </div>
   );
